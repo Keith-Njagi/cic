@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    
+    
+    
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css//ionicons/css/ionicons.min.css">
+
+    <link rel="icon" href="images/cic_logo.jpg">
+
+    <title>Contiinum Indepth Consultants</title>
+    <script>
+        //Scroll button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+    </script>
+</head>
+<body>
+    <button onClick="topFunction()" id="scroll01" title="Go to top" class="fa fa-chevron-up"></button>
+    <div class="main-menu">
+        <div class="container">
+            <div class="row align-items-center justify-content-between d-flex mb-4">
+                <div>
+                    <a href="/"><img class="logo-img" attr="icon" src="images/logo.jpg"/></a>
+                </div>
+                <div class="">
+                    <nav id="myNavMenu" class="nav-overlay"> 
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <ul class="nav-menu ">
+                            <li><a class="" href="index.html" >Home</a></li>
+                            <li><a class="" href="about.html" >About</a></li>
+                            <li><a class="" href="team.html" >Our Team</a></li>
+                            <li><a class="" href="services.html" >Our Services</a></li>
+                            <li><a class="menu-active" href="contact.html" >Contact</a></li>
+                        </ul> 
+                    </nav>
+                </div>
+                <span class="nav-menu-span" onclick="openNav()">&#9776;</span>
+            </div>
+        </div>
+    </div>
+
+    <!--######## start banner Area ########-->
+    <section class="banner-area relative mb-3" id="home">
+		<div class="container">
+			<div class="row d-flex align-items-center justify-content-center">
+				<div class="about-content col-lg-12">
+					<h1 class="text-white text-uppercase">
+						Contact Us
+					</h1>
+					<p class="text-white link-nav">
+                        <a href="index.html">Home </a>
+                        <span class="fa fa-arrow-right"></span> 
+                        <a href="contact.html">Contact Us</a>
+                    </p>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!--######## End banner Area ########-->
+    <section class="section-light">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-end p-3">
+                <div class="col-lg-5 col-md-5 txt-const-red">
+                    <div class="row">
+                        <div class="col-2">
+                            <i class=" contact-item ion-ios-location-outline"></i>
+                        </div>
+                        <div class="col-10">
+                            <p class="">Farm Auto-Care Complex,<br>Beside Plaza 2000,<br> Along Mombasa Road<br></p>
+                            <p class="">P.O. Box 472-00900, Kiambu</p>
+                        </div>
+                        <div class="col-2">
+                                <i class="contact-item ion-ios-email-outline"></i>
+                        </div>
+                        <div class="col-10">
+                            <p class="">info@contiinumindepth.consulting</p>
+                        </div>
+                        <div class="col-2">
+                            <i class=" contact-item ion-ios-telephone-outline"></i>
+                        </div>
+                        <div class="col-10">
+                            <p class="">+254 724963811 <br>+254 723005706 <br> +254 713105268</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7 ">
+                    <form action="" method="post" role="form" class="contactForm">
+                        <div class="form-row">
+                            <div class="form-group col-lg-6">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            </div>
+                            <div class="form-group col-lg-6">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-outline-site-red" type="submit" title="Send Message">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<footer class="card text-white bg-light mb-3">
+    <div class="card-footer text-muted text-center">
+        <p>&copy; <span></span> Contiinum Indepth Consultants | All rights reserved.</p> 
+    </div>
+</footer>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="js/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="js/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+<script src="js/main.js"></script>
+<script src="js/main_es.js"></script>
+
+<!-- CDN for ckeditor -->
+<!--<script src="//cdn.ckeditor.com/4.12.1/standard/ckeditor.js"></script>-->
+</body>
+
+
+
+
+    
