@@ -1,4 +1,4 @@
-body, html{height: 100%; margin:0;font-size: 14px;font-family: arial,helvetica,tahoma,verdana,sans-serif!important;/*"Verdana", san-serif; font-size: 10pt!important;*/font-weight: 400;line-height: 1.8em;color:#222/*#151515*/;position:relative;}
+body, html{height: 100%;width:100%; margin:0;font-size: 14px;font-family: arial,helvetica,tahoma,verdana,sans-serif!important;/*"Verdana", san-serif; font-size: 10pt!important;*/font-weight: 400;line-height: 1.8em;color:#222/*#151515*/;position:relative;}
 
 h1{font-size:36px;border-bottom:3px ;}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 h1,h2,h3,h4,h5,h6{font-family: "Verdana"/*"Segoe UI"*/,Arial,sans-serif;font-weight:600/*750*/;margin:10px 0;/*color:#222;*/}
@@ -278,3 +278,5 @@ h1,h2,h3,h4,h5,h6{font-family: "Verdana"/*"Segoe UI"*/,Arial,sans-serif;font-wei
 .btn-outline-site-red:hover {color: #fff;background-color: #e53935;border-color: #e53935;}
 .btn-outline-site-navy-blue {color: #19237e;border-color: #19237e;}
 .btn-outline-site-navy-blue:hover {color: #fff;background-color: #19237e;border-color: #19237e;}
+
+/*.wow {visibility: hidden;boxClass: wow;animateClass: animated;offset: 0;mobile: true;live: true;}*/
